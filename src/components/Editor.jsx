@@ -17,7 +17,7 @@ const Editor = () => {
         }}
       ></textarea>
       <div className="preview">
-        <div className="loading">{text}</div></div>
+        <h1 className="loading">{text}</h1></div>
     </div>
   );
 };
